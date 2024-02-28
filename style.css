@@ -3,12 +3,20 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  background: transparent;
+  /* background: transparent; */
   font-family: 'Poppins', sans-serif;
 }
 body {
-  background: rgb(30, 30, 30);
+  /* background: rgb(30, 30, 30); */
   color: #fff;
   overflow: hidden;
   overflow-y: scroll;
+  /* background: #070f2b; */
+  /* background: rgb(7, 15, 43);
+  background: linear-gradient(
+    90deg,
+    rgba(7, 15, 43, 1) 27%,
+    rgba(27, 26, 85, 1) 50%
+  ); */
+  background: linear-gradient(to bottom, #070f2b, #1b1a55);
 }

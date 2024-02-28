@@ -1,0 +1,22 @@
+Sure, I can provide you with a color scheme for a dark mode theme based on the
+provided colors. Here's a suggested palette: Background Color: #070F2B (Deep
+Blue) Container Background Color / Navbar Background: #1B1A55 (Dark Indigo)
+Accent Color: #535C91 (Lighter Indigo) Text Color: #9290C3 (Light Lavender)
+Here's how you might use these colors in your design: Background: #070F2B
+Container Background (e.g., for cards, sections): #1B1A55 Navbar Background:
+#1B1A55 Accent Color (e.g., for buttons, links): #535C91 Text Color: #9290C3
+This color scheme should provide a cohesive and visually appealing dark mode
+theme with good contrast and readability. You can adjust the usage of these
+colors based on your specific design requirements. @media screen and (min-width:
+1024px) { .logo { display: none; } .desktopMenu { transition: all 0.7s ease;
+position: fixed; right: 0; left: 0; top: 1rem; /_ Adjust as needed _/
+background: #1b1a55; height: 5rem; } .resumedown { display: none; } } @media
+screen and (min-width: 768px) and (max-width: 1023px) { .logo { display: none; }
+.desktopMenu { transition: all 0.7s ease; position: fixed; right: 0; left: 0;
+top: 1rem; /_ Adjust as needed _/ background: #1b1a55; height: 5rem; }
+.resumedown { display: none; } } /_ phone modiaquerey _/ @media screen and
+(max-width: 767px) { .logo { display: none; } .desktopMenu { transition: all
+0.7s ease; position: fixed; right: 0; left: 0; top: 1rem; /_ Adjust as needed _/
+background: #1b1a55; height: auto; /_ Set height to auto for dynamic height _/
+font-size: small; width: 100%; /_ Adjust width to fill the viewport _/ padding:
+1rem; /_ Add padding for better spacing _/ } .resumedown { display: none; } }

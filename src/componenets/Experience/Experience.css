@@ -1,0 +1,58 @@
+#experience {
+  height: 100vh;
+  width: 100vw;
+  /* background: #070f2b; */
+  background: #535c91;
+}
+.experience-container {
+  height: 100%;
+  width: 85vw;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.exp-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  background: -webkit-linear-gradient(#58ffb4, #289061);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 3.75rem;
+  font-weight: 700;
+  line-height: 1;
+  padding-bottom: 1.25rem;
+}
+.my-experience {
+  border: solid 2px #71717a;
+  width: 100%;
+  padding: 1rem;
+  max-width: 1440px;
+  margin: 2rem auto;
+}
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.rols-title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+}
+.rols-title img {
+  height: 30px;
+  width: 30px;
+}
+.rols-title p {
+  margin-left: 10px;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.my-experience:hover {
+  background-color: #d4d4d8;
+  background-color: rgba(212, 212, 216, 0.1);
+}

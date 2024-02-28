@@ -11,31 +11,31 @@ import youtube from '../../assets/youtube.png'
 const Contact = () => {
   return (
     <section className="contactPage">
-      <Client />
+      {/* <Client /> */}
 
       <Contactme />
     </section>
   )
 }
-function Client() {
-  return (
-    <div id="clients">
-      <h1 className="contactPageTitle">My Client</h1>
-      <p className="clientDesc">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est aliquid
-        corporis culpa totam aliquam voluptatem eum obcaecati perspiciatis,
-        minima facere libero voluptates ducimus pariatur possimus soluta
-        numquam. Laboriosam, odit fuga.
-      </p>
-      <div className="clientimgs">
-        <img src={client1} alt="" className="clientimg" />
-        <img src={client2} alt="" className="clientimg" />
-        <img src={client3} alt="" className="clientimg" />
-        <img src={client4} alt="" className="clientimg" />
-      </div>
-    </div>
-  )
-}
+// function Client() {
+//   return (
+//     <div id="clients">
+//       <h1 className="contactPageTitle">My Client</h1>
+//       <p className="clientDesc">
+//         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est aliquid
+//         corporis culpa totam aliquam voluptatem eum obcaecati perspiciatis,
+//         minima facere libero voluptates ducimus pariatur possimus soluta
+//         numquam. Laboriosam, odit fuga.
+//       </p>
+//       <div className="clientimgs">
+//         <img src={client1} alt="" className="clientimg" />
+//         <img src={client2} alt="" className="clientimg" />
+//         <img src={client3} alt="" className="clientimg" />
+//         <img src={client4} alt="" className="clientimg" />
+//       </div>
+//     </div>
+//   )
+// }
 function Contactme() {
   return (
     <div id="contact">
