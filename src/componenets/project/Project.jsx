@@ -20,6 +20,18 @@ const Project = () => {
                 aperiam nostrum totam blanditiis quos?
               </p>
               <span>github icon</span>
+              <div className="workd-button">
+                <button>
+                  <a href="">
+                    <span>Live Preview</span>
+                  </a>
+                </button>
+                <button>
+                  <a href="">
+                    <span>github repo</span>
+                  </a>
+                </button>
+              </div>
             </div>
           </div>
           <div className="project">
@@ -29,9 +41,22 @@ const Project = () => {
               <p className="project-desc">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Dignissimos harum in incidunt error laudantium asperiores
-                aperiam nostrum totam blanditiis quos? <span>github icon</span>
+                aperiam nostrum totam blanditiis quos?
               </p>
-            </div>{' '}
+              <span>github icon</span>
+              <div className="workd-button">
+                <button>
+                  <a href="">
+                    <span>Live Preview</span>
+                  </a>
+                </button>
+                <button>
+                  <a href="">
+                    <span>github repo</span>
+                  </a>
+                </button>
+              </div>
+            </div>
             <div className="project-img">
               <img src={project1} alt="" />
             </div>
@@ -49,6 +74,18 @@ const Project = () => {
                 aperiam nostrum totam blanditiis quos?
               </p>
               <span>github icon</span>
+              <div className="workd-button">
+                <button className="btn">
+                  <a href="">
+                    <span> Live Preview</span>
+                  </a>
+                </button>
+                <button>
+                  <a href="">
+                    <span>github repo</span>
+                  </a>
+                </button>
+              </div>
             </div>
           </div>
         </div>

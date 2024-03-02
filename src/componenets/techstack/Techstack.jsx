@@ -89,7 +89,7 @@ const Techstack = () => {
           </div>
         </div>
         <div>
-          <h1 className="skills-title">skill set</h1>
+          <h1 className="skills-title2">skill set</h1>
           <div className="skills-wrapper">
             <span>React</span>
             <span>Next.js</span>

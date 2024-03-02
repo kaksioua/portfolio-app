@@ -41,22 +41,19 @@ ul li:hover {
   border-radius: 30px;
   cursor: pointer;
   color: #e1fbd6;
-  /* background: #21212f; */
   background: rgba(33, 33, 47, 0.45);
 }
-.desktopMenu.scrolled {
+.desktopMenu .scrolled {
   transition: all 0.7s ease;
   position: fixed;
   right: 0;
   left: 0;
   top: 1rem;
-  /* background: #1b1a55; */
   background-color: rgba(27, 26, 85, 0.49);
   height: 5rem;
 }
 
 .resumedown {
-  /* background-color: #1b1a55; */
   background: #9290c3;
   color: #ffffff;
   padding: 1em 1.5em;
@@ -77,12 +74,17 @@ ul li:hover {
   margin-left: 0.5em;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .navbar {
+    height: 0;
+  }
   .logo {
     display: none;
   }
 
   .desktopMenu {
+    font-size: 0.8rem;
+    font-weight: 300;
     transition: all 0.7s ease;
     position: fixed;
     right: 0;
@@ -95,23 +97,29 @@ ul li:hover {
     display: none;
   }
 }
-/* tablet mediaquerey */
-@media (max-width: 768px) {
-  .desktopMenu {
-    width: fit-content;
-    margin: 0 auto;
-    padding: 1rem;
-    justify-content: flex-start;
-  }
-
-  ul li {
-    padding: 12px 20px;
-    font-size: 0.8rem;
-  }
+@media screen and (max-width: 768px) {
   .logo {
     display: none;
   }
   .resumedown {
     display: none;
+  }
+
+  .desktopMenu {
+    font-size: 0.7rem;
+    max-width: fit-content;
+    font-weight: 200;
+    transition: all 0.7s ease;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 1rem;
+    background: #1b1a55;
+    height: 3rem;
+  }
+
+  ul li {
+    padding: 12px 10px;
+    font-size: 0.8rem;
   }
 }

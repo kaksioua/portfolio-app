@@ -38,7 +38,7 @@ const Navbar = () => {
         <img src={logo} alt="logo" />
       </div>
       {/* <div className="desktopMenu"> */}
-      <ul className={`desktopMenu ${scrolled ? ' desktopMenu scrolled' : ''}`}>
+      <ul className={`desktopMenu ${scrolled ? '  scrolled' : ''}`}>
         <li>
           {' '}
           <Link

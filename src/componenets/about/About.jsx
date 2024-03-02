@@ -1,10 +1,12 @@
 import React from 'react'
-import './about.css'
+import './aboutest.css'
 import aboutimg from '../../assets/image.png'
 const About = () => {
   return (
     <section id="about">
-      <h1 className="skillTtitle">About me</h1>
+      <div className="title-container">
+        <h1 className="skillTtitle">About me</h1>
+      </div>
       <div className="about-container">
         <div className="itro-content">
           <p className="introPara">
@@ -17,11 +19,10 @@ const About = () => {
             challenges. In addition to coding, I enjoy building side projects
             because it allows me to explore my creativity and accomplish
             exciting things.
-          </p>
-        </div>
-        <div className="about-img">
+          </p>{' '}
           <img src={aboutimg} alt="" />
         </div>
+        {/* <div className="about-img"></div> */}
       </div>
     </section>
   )

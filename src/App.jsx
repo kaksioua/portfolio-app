@@ -17,7 +17,7 @@ function App() {
       <Experience />
       <Project />
       {/* <Skill /> */}
-      {/* <Works /> */}
+      <Works />
       <Contact />
       <Footer />
     </>
