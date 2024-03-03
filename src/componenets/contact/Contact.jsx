@@ -3,28 +3,38 @@ import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import './contact.css'
 const Contact = () => {
-  function Contactme() {
-    const form = useRef()
+  const form = useRef()
 
-    const sendEmail = (e) => {
-      e.preventDefault()
+  const sendEmail = (e) => {
+    e.preventDefault()
 
-      emailjs
-        .sendForm('service_ihjiwxr', 'template_hc4098t', form.current, {
-          publicKey: 'aTAY81FbOWCNU11b3',
-        })
-        .then(
-          () => {
-            console.log('SUCCESS!')
-          },
-          (error) => {
-            console.log('FAILED...', error.text)
-          }
-        )
-    }
-    return (
-      <div id="contact">
-        <form className="contactForm" ref={form} onSubmit={sendEmail}>
+    emailjs
+      .sendForm('service_ihjiwxr', 'template_hc4098t', form.current, {
+        publicKey: 'aTAY81FbOWCNU11b3',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!')
+        },
+        (error) => {
+          console.log('FAILED...', error.text)
+        }
+      )
+  }
+  return (
+    <div id="contact">
+      {' '}
+      <div className="contact-info">
+        {' '}
+        <h1>Let's contact</h1>
+        <div className="info">
+          <h4>Email : kaskioua@gmail.com</h4>
+          <h4>Phone : +212 698888275</h4>
+        </div>
+      </div>
+      <div className="contactForm">
+        <h1>Send me a message</h1>
+        <form ref={form} onSubmit={sendEmail}>
           <input
             className="name"
             type="text"
@@ -43,7 +53,7 @@ const Contact = () => {
           </button>
         </form>
       </div>
-    )
-  }
+    </div>
+  )
 }
 export default Contact

@@ -4,6 +4,7 @@ import project1 from '../../assets/portfolio-1.png'
 import git from '../../assets/icon/gitgit.png'
 import crudapp from '../../assets/crud-app.png'
 import edupage from '../../assets/edu.jpg'
+import ecomproject from '../../assets/ecomwebsite.jpg'
 const Project = () => {
   return (
     <section id="project">
@@ -11,18 +12,14 @@ const Project = () => {
         <h1 className="exp-title">My project</h1>
         <div className="projects">
           <div className="project">
-            <div className="project-img">
-              <img src={crudapp} alt="" />
-            </div>
             <div className="project-content">
               {/* <h3>2</h3> */}
-              <h1 className="project-title">React js Crud-App</h1>
+              <h1 className="project-title">Employee management software</h1>
               <p className="project-desc">
                 CRUD application equipped with an intuitive admin login feature.
                 Seamlessly navigate through employee data with the ability to
                 add, delete, and modify every aspect of employment records.
               </p>
-
               <div className="workd-button">
                 <button>
                   <a href="https://jsreactcrudapp.netlify.app/">
@@ -37,7 +34,10 @@ const Project = () => {
                     </span>
                   </a>
                 </button>
-              </div>
+              </div>{' '}
+            </div>{' '}
+            <div className="project-img">
+              <img src={crudapp} alt="" />
             </div>
           </div>
           <div className="project">
@@ -67,7 +67,7 @@ const Project = () => {
           </div>
           <div className="project">
             <div className="project-img">
-              <img src={project1} alt="" />
+              <img src={ecomproject} alt="" />
             </div>
             <div className="project-content">
               {/* <h3>2</h3> */}

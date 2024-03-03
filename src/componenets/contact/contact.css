@@ -1,46 +1,28 @@
-.contactPage {
-  /* min-width: calc(100vh - 4rem); */
+#contact {
+  height: 80vh;
   width: 100vw;
   max-width: 85vw;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-.contactPageTitle {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-.clients {
+.contact-info {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 85%;
-  margin: 0 auto;
 }
-/* .clientDesc {
-  font-weight: 300;
-  font-size: 1rem;
+.contact-info h1 {
+  margin-bottom: 2rem;
 }
-.clientimgs {
-  margin: 1rem 0;
-  display: flex;
-  flex-wrap: wrap;
+.contactForm form {
+  height: 50%;
 }
-.clientimg {
-  object-fit: cover;
-  width: 23%;
-  min-width: 9rem;
-  margin: auto;
-  padding: 0.5rem;
-} */
-#contact {
-  padding: 2rem;
+.contactForm h1 {
+  margin-bottom: 2rem;
 }
-
-.contactdesc {
-  padding: 1rem;
-  font-size: medium;
-  font-weight: 300;
+.contact-info .info {
+  height: 50%;
 }
 
 .contactForm {
@@ -50,8 +32,8 @@
   align-items: center;
   text-align: center;
   margin: 1rem;
-  width: 90vw;
-  max-width: 60rem;
+  /* width: 90vw; */
+  /* max-width: 60rem;   */
 }
 .name,
 .email,
@@ -84,4 +66,9 @@
   height: 3rem;
   width: 3rem;
   margin: 0 0.75rem;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
 }

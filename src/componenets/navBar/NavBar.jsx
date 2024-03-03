@@ -80,6 +80,20 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
+          {' '}
+          <Link
+            activeClass="active"
+            to="project"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+            className="desktopMenuItem"
+          >
+            Project
+          </Link>
+        </li>
+        <li>
           <Link
             activeClass="active"
             to="contact"
