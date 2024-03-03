@@ -16,9 +16,7 @@
   overflow-x: hidden;
 } */
 #intro {
-  height: calc(
-    100vh - 5.5rem
-  ); /* Adjust the height to leave space for the header/footer */
+  height: calc(100vh - 5.5rem);
   display: grid;
   grid-template-rows: 1fr;
   max-width: 85vw;
@@ -30,6 +28,7 @@
   background: linear-gradient(to bottom, #070f2b, #1b1a55);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   z-index: -1;
+  margin-bottom: 0;
   background-blend-mode: multiply;
   overflow-x: hidden;
 }

@@ -86,13 +86,33 @@
   padding: 5px;
   border-radius: 2px;
   border: 1px solid #8a87e7;
-
   background: #151749;
   box-shadow: 0 2px 3px #0000003d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+span img {
+  height: 1.5rem;
+  width: 1.5rem;
+
+  margin-right: 10px;
 }
 .skills-wrapper :hover {
   cursor: grab;
   text-align: center;
   background: #aeacff;
   color: black;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .skills-items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .skills-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

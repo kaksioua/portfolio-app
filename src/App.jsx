@@ -14,10 +14,10 @@ function App() {
       <Intro />
       <About />
       <Techstack />
-      <Experience />
+      {/* <Experience /> */}
       <Project />
       {/* <Skill /> */}
-      <Works />
+      {/* <Works /> */}
       <Contact />
       <Footer />
     </>

@@ -43,7 +43,7 @@ ul li:hover {
   color: #e1fbd6;
   background: rgba(33, 33, 47, 0.45);
 }
-.desktopMenu .scrolled {
+.desktopMenu.scrolled {
   transition: all 0.7s ease;
   position: fixed;
   right: 0;

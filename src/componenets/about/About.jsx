@@ -10,6 +10,8 @@ const About = () => {
       <div className="about-container">
         <div className="itro-content">
           <p className="introPara">
+            {' '}
+            <img src={aboutimg} alt="" />
             I'm a 21 year old developer living in Germany. I discovered my
             passion for coding after seeing my brother do it. I fell in love
             with using my creativity to build things for the web. Through
@@ -20,7 +22,6 @@ const About = () => {
             because it allows me to explore my creativity and accomplish
             exciting things.
           </p>{' '}
-          <img src={aboutimg} alt="" />
         </div>
         {/* <div className="about-img"></div> */}
       </div>

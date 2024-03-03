@@ -56,19 +56,6 @@ const Navbar = () => {
         <li>
           <Link
             activeClass="active"
-            to="clients"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-            className="desktopMenuItem"
-          >
-            Client
-          </Link>
-        </li>
-        <li>
-          <Link
-            activeClass="active"
             to="about"
             spy={true}
             smooth={true}
@@ -76,7 +63,20 @@ const Navbar = () => {
             duration={500}
             className="desktopMenuItem"
           >
-            ABOUT
+            About
+          </Link>
+        </li>
+        <li>
+          <Link
+            activeClass="active"
+            to="teck-stack"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+            className="desktopMenuItem"
+          >
+            Tech Stack
           </Link>
         </li>
         <li>
@@ -89,7 +89,7 @@ const Navbar = () => {
             duration={500}
             className="desktopMenuItem"
           >
-            Contact
+            contact
           </Link>
         </li>
       </ul>

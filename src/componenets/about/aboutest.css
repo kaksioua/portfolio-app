@@ -1,11 +1,13 @@
 #about {
-  /* height: calc(100vh - 5rem); */
-  height: 100vh;
+  height: calc(100vh + 5rem);
+  /* height: 100vh; */
   width: 100vw;
   max-width: 70vw;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
 }
 .title-container h1 {
   text-align: center;
@@ -16,20 +18,26 @@
   font-size: 3.75rem;
   font-weight: 700;
   line-height: 1;
-  height: 5rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  /* height: 5rem; */
 }
 .itro-content {
   display: flex;
 
   justify-content: center;
 }
-.itro-content img {
-  height: 25rem;
+
+.introPara img {
+  align-self: flex-end;
+  height: 85vh;
   width: 25rem;
   object-fit: cover;
-  align-self: flex-start;
 }
 .itro-content p {
+  height: 80vh;
+  display: flex;
+  align-items: center;
   padding: 2rem;
   align-self: flex-end;
   font-size: 16px;

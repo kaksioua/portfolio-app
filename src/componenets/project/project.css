@@ -1,7 +1,8 @@
 #project {
   height: 100%;
-  width: 100vw;
+  /* width: 100vw; */
   background: #070f2b;
+  /* margin: 0 auto; */
 }
 .project_container {
   max-width: 80vw;
@@ -30,9 +31,11 @@
   padding-bottom: 1.25rem;
 }
 .project {
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(2, 1fr);
-  place-items: center;
+  place-items: center; */
+  display: flex;
+  flex-direction: row;
   text-align: left;
   background: #2a2a32;
   border-radius: 0.875rem;
@@ -70,7 +73,7 @@
 }
 
 .project-desc {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 .workd-button {
   margin-top: 1rem;
@@ -80,6 +83,7 @@
   justify-content: start;
   color: white;
   gap: 10px;
+  margin-bottom: 3rem;
 }
 .workd-button button {
   padding: 0.56rem 1rem;
@@ -91,4 +95,54 @@
   color: #c2c2c2;
   text-transform: capitalize;
   font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .projects {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .project {
+    flex-direction: column;
+    padding: 5px;
+  }
+  .project-content {
+    margin: 0 auto;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+  }
+
+  .workd-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .workd-button button {
+    margin: 0 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project {
+    flex-direction: column;
+    padding: 5px;
+  }
+  .project-content {
+    margin: 0 auto;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+  }
+
+  .workd-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .workd-button button {
+    margin: 0 10px;
+  }
 }
