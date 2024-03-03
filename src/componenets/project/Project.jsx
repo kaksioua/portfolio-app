@@ -15,7 +15,7 @@ const Project = () => {
               <img src={crudapp} alt="" />
             </div>
             <div className="project-content">
-              <h3>2</h3>
+              {/* <h3>2</h3> */}
               <h1 className="project-title">React js Crud-App</h1>
               <p className="project-desc">
                 CRUD application equipped with an intuitive admin login feature.
@@ -25,7 +25,7 @@ const Project = () => {
 
               <div className="workd-button">
                 <button>
-                  <a href="">
+                  <a href="https://jsreactcrudapp.netlify.app/">
                     <span>Live Preview</span>
                   </a>
                 </button>
@@ -42,7 +42,7 @@ const Project = () => {
           </div>
           <div className="project">
             <div className="project-content">
-              <h3>2</h3>
+              {/* <h3>2</h3> */}
               <h1 className="project-title">Multi-Page Educational Website</h1>
               <p className="project-desc">
                 fully responsive multi-page educational school website using
@@ -50,7 +50,7 @@ const Project = () => {
               </p>
               <div className="workd-button">
                 <button>
-                  <a href="">
+                  <a href="https://eduwebpage.netlify.app/">
                     <span>Live Preview</span>
                   </a>
                 </button>
@@ -70,7 +70,7 @@ const Project = () => {
               <img src={project1} alt="" />
             </div>
             <div className="project-content">
-              <h3>2</h3>
+              {/* <h3>2</h3> */}
               <h1 className="project-title">React js Crud-App</h1>
               <p className="project-desc">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.

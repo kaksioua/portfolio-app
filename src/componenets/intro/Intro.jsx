@@ -15,32 +15,19 @@ const Intro = () => {
           <span className="introText">Front-end Developer.</span>
         </div>
         <div className="intro_icon">
-          <CiLinkedin className="linkedin sosicon" />
-          <FaGithub className="github sosicon" />
-        </div>
-        {/* <p className="introPara">
-          Hello, I’m Samantha, a web designer who likes to add a touch of
-          creativity and originality to every website I create. I have a strong
-          background in web design and development, and I’m always eager to take
-          on new projects and challenges.
-        </p> */}
-        {/* <Link>
-          <button className="btn">
-            <img src={btnImg} alt="" className="btnImg" />
-            Hire Me
+          <button className="socail-btn">
+            <a href="https://www.linkedin.com/in/kamal-askioua/">
+              <span>Linkedin</span> <CiLinkedin />
+            </a>
           </button>
-        </Link> */}
+
+          <button className="socail-btn">
+            <a href="https://github.com/kaksioua">
+              <span>Github</span> <FaGithub />
+            </a>
+          </button>
+        </div>
       </div>
-      {/* <div className="introPara">
-        <p>
-          Hello, I’m Samantha, a web designer who likes to add a touch of
-          creativity and originality to every website I create. I have a strong
-          background in web design and development.
-        </p>
-      </div> */}
-      {/* <div className="introimg">
-        <img src={bg} alt="" className="bg" />
-      </div> */}
     </section>
   )
 }

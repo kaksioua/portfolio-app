@@ -12,15 +12,14 @@ const About = () => {
           <p className="introPara">
             {' '}
             <img src={aboutimg} alt="" />
-            I'm a 21 year old developer living in Germany. I discovered my
-            passion for coding after seeing my brother do it. I fell in love
-            with using my creativity to build things for the web. Through
-            persistence, self-discipline, and commitment, I achieved my goal of
-            becoming a frontend developer. What kept me on this journey is that
-            I always find learning new things exciting and facing unfamiliar
-            challenges. In addition to coding, I enjoy building side projects
-            because it allows me to explore my creativity and accomplish
-            exciting things.
+            I'm a web developer switching fields after graduating with a BA in
+            linguistics. I've dreamed about getting to tech since i was a kid
+            writing html in a note file smiling after it renders in the browser.
+            i love the sense of accomplishment coding gives after doing even the
+            little tasks, and how rewarding the feeling is. problem solving and
+            consistent learning is two of the most skills that i try to build
+            day after day because i know they are the keys to make a good
+            developer.
           </p>{' '}
         </div>
         {/* <div className="about-img"></div> */}

@@ -27,10 +27,23 @@
   top: 0;
   background: linear-gradient(to bottom, #070f2b, #1b1a55);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  z-index: -1;
   margin-bottom: 0;
   background-blend-mode: multiply;
   overflow-x: hidden;
+}
+.socail-btn {
+  padding: 1rem;
+  background: #070f2b;
+  border: none;
+  border-radius: 10px;
+}
+.socail-btn a {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 16px;
 }
 .into_cont {
   display: flex;
