@@ -13,7 +13,7 @@ const About = () => {
             {' '}
             <img src={aboutimg} alt="" />
             I'm a web developer switching fields after graduating with a BA in
-            linguistics. I've dreamed about getting to tech since i was a kid
+            Economics. I've dreamed about getting to tech since i was a kid
             writing html in a note file smiling after it renders in the browser.
             i love the sense of accomplishment coding gives after doing even the
             little tasks, and how rewarding the feeling is. problem solving and

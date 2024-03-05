@@ -8,10 +8,10 @@ import { Link } from 'react-scroll'
 import contactImg from '../../assets/contact.png'
 
 const handleDownload = () => {
-  const pdfUrl = `${process.env.PUBLIC_URL}/askiouakamal.pdf`
+  const pdfUrl = '../file/mycv/cv.pdf'
   const link = document.createElement('a')
   link.href = pdfUrl
-  link.download = 'askiouakamal.pdf'
+  link.download = '../file/mycv/cv.pdf'
   link.click()
 }
 

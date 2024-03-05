@@ -71,11 +71,13 @@ const Project = () => {
             </div>
             <div className="project-content">
               {/* <h3>2</h3> */}
-              <h1 className="project-title">React js Crud-App</h1>
+              <h1 className="project-title">
+                E-Commerce App with React, Strapi, Stripe
+              </h1>
               <p className="project-desc">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Dignissimos harum in incidunt error laudantium asperiores
-                aperiam nostrum totam blanditiis quos?
+                Ecommerce project built with React and Strapi. It offers a
+                smooth shopping experience, from browsing products to secure
+                transactions.
               </p>
 
               <div className="workd-button">
